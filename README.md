@@ -51,23 +51,23 @@ Responsibilities of the Backend:
 
   💪 Mysql for Database Management
 
-Mysql is used for its
+MySQL is used for its
 
-- Flexibility: Stores data in a JSON-like format, ideal for dynamic schemas.
+- Reliability: Ensures data integrity and secure storage.
 
-- Scalability: Handles large datasets with ease.
+- Scalability: Handles large datasets and concurrent queries efficiently.
 
-- Performance: Fast read/write operations for real-time applications.
+- Performance: Provides fast and optimized queries for real-time applications.
 
 Key Tables:
 
-Users: Stores admin and guest profiles.
+- Users: Stores admin and guest profiles.
 
-Rooms: Tracks room details and availability.
+- Rooms: Tracks room details and availability.
 
-Reservations: Manages booking records and statuses.
+- Reservations: Manages booking records and statuses.
 
-Payments: Logs payment transactions and billing details.
+- Payments: Logs payment transactions and billing details.
 
 Setup Instructions
 
