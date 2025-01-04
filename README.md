@@ -24,7 +24,9 @@ Frontend: React, Tailwind CSS
 
 Backend: Express.js (Node.js)
 
-Database: MongoDBState Management: ReduxOther Tools: Postman, Axios
+Database: Mysql
+
+Other Tools: Postman, Axios
 
 
 🚀 Backend Powered by Express.js
