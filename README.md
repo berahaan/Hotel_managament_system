@@ -21,7 +21,9 @@ Responsive Design: Optimized for both desktop and mobile devices.
 🚀 Technologies Used
 
 Frontend: React, Tailwind CSS 
+
 Backend: Express.js (Node.js)
+
 Database: MongoDBState Management: ReduxOther Tools: Postman, Axios
 
 
