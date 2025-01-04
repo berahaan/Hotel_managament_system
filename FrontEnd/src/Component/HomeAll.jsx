@@ -11,32 +11,41 @@ function HomeAll() {
       >
         <nav className="bg-gray-800 p-4 fixed top-0 w-full z-10">
           <div className="container mx-auto flex justify-between items-center">
-            <div className="text-white text-lg font-semibold">
+            <div className="text-white font-semibold text-2xl">
               Koye Feche Hotel
             </div>
             <div className="space-x-4">
-              <Link to="/" className="text-gray-300 hover:text-white">
+              <Link to="/" className="text-gray-300 hover:text-white text-xl">
                 Home
               </Link>
               <Link
                 to="guestservices"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-white text-xl"
               >
                 Service
               </Link>
-              <Link to="vacancy" className="text-gray-300 hover:text-white">
+              <Link
+                to="vacancy"
+                className="text-gray-300 hover:text-white text-xl"
+              >
                 Vacancy
               </Link>
               <Link
                 to="guestFeedback"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-white text-xl"
               >
                 Feedback
               </Link>
-              <Link to="/loginto" className="text-gray-300 hover:text-white">
+              <Link
+                to="/loginto"
+                className="text-gray-300 hover:text-white text-xl"
+              >
                 Login
               </Link>
-              <Link to="/register" className="text-gray-300 hover:text-white">
+              <Link
+                to="/register"
+                className="text-gray-300 hover:text-white text-xl"
+              >
                 sign-up
               </Link>
             </div>
@@ -44,7 +53,7 @@ function HomeAll() {
         </nav>
         <div className="container mx-auto text-center py-20 mt-16">
           <h1 className="text-5xl text-white font-bold">
-            WELCOME TO OUR HOTEL
+            WELCOME TO YOUR HOTEL
           </h1>
           <p className="text-3xl text-gray-200 mt-20 text-center ">
             WE VALUE YOUR STAYING AT HERE !!

@@ -32,8 +32,8 @@ const ReservedRoomList = () => {
   return (
     <div className="container w-full mx-2">
       <Navbar />
-      <h1 className="text-2xl bg-gradient-to-r from-blue-200 to-teal-500 p-4 rounded-md">
-        This below is Feedback given by Our Respected Client
+      <h1 className="text-2xl bg-gradient-to-r from-blue-200 to-teal-500 p-4 rounded-md mt-20">
+        This below is Reserved Room by Patients
       </h1>
       <br />
       {reservationData.length > 0 ? (

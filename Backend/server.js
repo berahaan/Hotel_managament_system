@@ -1,14 +1,16 @@
+require('dotenv').config();  
 const express = require("express");
 const mysql = require("mysql2");
 const bodyParser = require("body-parser");
 const bcrypt = require("bcryptjs");
 const cors = require("cors");
 const app = express();
+const PORT =process.env.PORT ||8000
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "birhan",
-  database: "TESTING2",
+  password:process.env.DATABASE_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
 });
 
 app.use(cors());
@@ -293,7 +295,7 @@ app.post("/reservation", (req, res) => {
             check_out,
             payment,
             Price
-          ); // Pass parameters to createReservation
+          ); // Pass parameters to createReservatio
         }
       );
     }
@@ -493,6 +495,6 @@ app.post("/employee", (req, res) => {
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
-app.listen(8000, () => {
-  console.log("Server is running on port 8000");
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });

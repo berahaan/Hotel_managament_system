@@ -108,10 +108,10 @@ export default function EmployeeForm() {
     }
   };
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-indigo-200">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-100 to-indigo-200 mt-16">
       <div className="w-full max-w-3xl p-6 bg-white shadow-lg rounded-lg">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-4">
-          Employee Registration Form
+          Employee Registration
         </h2>
         <p className="text-center text-gray-600 mb-8">
           Fill out the form below to hire a new employee. Please provide

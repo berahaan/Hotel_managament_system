@@ -6,7 +6,7 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100">
       <nav className="bg-gradient-to-r from-blue-500 to-teal-500 text-white p-4 fixed w-full top-0 shadow-lg z-10">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-xl font-bold">Profile</div>
+          <div className="text-xl font-bold">Manager</div>
           <ul className="flex space-x-6">
             <li>
               <Link to="reservation-list" className="hover:text-gray-200">
